@@ -208,6 +208,7 @@ Note: These metrics can be customized based on your actual performance evaluatio
 ## Result
 The blood group classification model, utilizing DenseNet121 as a Convolutional Neural Network (CNN), demonstrates strong performance on both the training and testing datasets:
 These results suggest that the blood group classification model is both highly accurate and well-balanced. 
+
 The model successfully predicts blood group types (A, B, AB, O) from fingerprint images, achieving minimal misclassification.
 Additionally, the model provides the precise blood group classification based on input fingerprint images, offering real-time predictions and valuable insights for potential integration into healthcare systems.
 
