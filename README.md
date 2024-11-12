@@ -1,58 +1,60 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## PREDICTING BLOOD GROUP USING FINGERPRINT USING DEEP LEARNING
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Blood group prediction is an important task in medical diagnostics, especially for safe blood transfusion, organ transplantation, and managing medical emergencies. 
+Traditionally, blood group determination is done manually using blood typing techniques, which involve mixing a blood sample with different antibodies to identify the presence or absence of antigens. 
+Although reliable, these methods can be time-consuming, require trained personnel, and may be prone to human error. 
+Thus, an automated approach using deep learning has emerged as a promising solution to streamline and enhance blood group classification.
+Deep learning techniques, especially convolutional neural networks (CNNs), have demonstrated significant success in image classification tasks. 
+In this project, we leverage transfer learning using DenseNet-121, a deep convolutional neural network that has been pre-trained on the ImageNet dataset. 
+Transfer learning enables the use of a pre-trained model as a feature extractor, which can be fine-tuned to perform specific tasks with a smaller dataset. 
+This method is especially useful when dealing with medical images, where large labeled datasets may not always be available.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Utilizes CNNs for accurate blood group classification from fingerprint images.
+- Leverages DenseNet121 for powerful feature extraction and high accuracy.
+- Trains on fingerprint datasets to identify distinct patterns linked to blood types.
+- Supports non-invasive blood group screening, potentially aiding medical diagnostics.
+- Enables easy deployment and scalability for real-world healthcare applications.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+* Operating System: Requires a 64-bit OS (Windows 10, macOS, or Ubuntu) compatible with deep learning libraries.
+* Development Environment: Python 3.7 or later is necessary for scripting and implementing the classification model.
+* Deep Learning Framework: TensorFlow (version 2.x) for building, training, and deploying the DenseNet121-based model.
+* Image Processing Libraries: Keras and OpenCV for image preprocessing, resizing, and real-time input handling.
+* Hardware Requirements: A GPU is recommended to accelerate training and inference.
+* IDE: Use Jupyter Notebook or VSCode for interactive coding, model tuning, and visualization.
+* Additional Dependencies: Includes scikit-learn for performance metrics, Matplotlib for visualization, and Pandas for data handling and analysis.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+## DenseNet-121 Architecture
+
+![DenseNet-121-Architecture](https://github.com/user-attachments/assets/e5c0cb90-c3ce-4c74-adf3-3b22411461bb)
+
+## Flow Chart
+![Screenshot 2024-11-12 183107](https://github.com/user-attachments/assets/2d14401c-9ea4-4b9d-b8b7-b5f4946dd38f)
 
 
 ## Output
+![Screenshot 2024-11-12 183333](https://github.com/user-attachments/assets/c7c2dee6-47cf-49ee-b2fc-563b74a754ab)
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
+Detection Accuracy: 86%
 Note: These metrics can be customized based on your actual performance evaluations.
 
+## Model Accuracy
+![Screenshot 2024-11-12 185235](https://github.com/user-attachments/assets/1e9a0bed-93f4-491c-8b73-e544f59fbca2)
+![Screenshot 2024-11-12 185413](https://github.com/user-attachments/assets/c1e4e3dc-71e2-4492-9856-639820c245d2)
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+## Result
+The blood group classification model, utilizing DenseNet121 as a Convolutional Neural Network (CNN), demonstrates strong performance on both the training and testing datasets:
+These results suggest that the blood group classification model is both highly accurate and well-balanced. 
+The model successfully predicts blood group types (A, B, AB, O) from fingerprint images, achieving minimal misclassification.
+Additionally, the model provides the precise blood group classification based on input fingerprint images, offering real-time predictions and valuable insights for potential integration into healthcare systems.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.  Yue-fang Dong, Wei-wei Fu, Zhe Zhou, Nian Chen, Min Liu and Shi Chen, "ABO blood group detection based on image processing technology," 2017 2nd International Conference on Image, Vision and Computing (ICIVC), Chengdu, 2017, pp. 655-659, doi: 10.1109/ICIVC.2017.7984637.
+2.  T. Gupta, "Artificial Intelligence and Image Processing Techniques for Blood Group Prediction," 2024 IEEE International Conference on Computing, Power and Communication Technologies (IC2PCT), Greater Noida, India, 2024, pp. 1022-1028, doi: 10.1109/IC2PCT60090.2024.10486628.  
 
 
 
