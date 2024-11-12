@@ -34,7 +34,7 @@ This method is especially useful when dealing with medical images, where large l
 ![Screenshot 2024-11-12 183107](https://github.com/user-attachments/assets/2d14401c-9ea4-4b9d-b8b7-b5f4946dd38f)
 
 ## Program
-``
+```
 # Step 1: Import required libraries
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -192,7 +192,7 @@ img_path = r"C:\Users\DELL\PROJECT\DATASET\EX1.jpeg"
 # Predict and display the blood group
 predicted_blood_group = predict_blood_group(model, img_path, class_indices)
 print("Predicted Blood Group:", predicted_blood_group)
-``
+```
 ## Output
 ![Screenshot 2024-11-12 183333](https://github.com/user-attachments/assets/c7c2dee6-47cf-49ee-b2fc-563b74a754ab)
 
