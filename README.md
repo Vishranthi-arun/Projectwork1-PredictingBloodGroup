@@ -34,7 +34,7 @@ This method is especially useful when dealing with medical images, where large l
 ![Screenshot 2024-11-12 183107](https://github.com/user-attachments/assets/2d14401c-9ea4-4b9d-b8b7-b5f4946dd38f)
 
 ## Program
-```
+```python
 # Step 1: Import required libraries
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
